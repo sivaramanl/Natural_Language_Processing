@@ -1,0 +1,18 @@
+Available Lexical Tagging combinations with their calculated probabilities:
+(The|DT)(boy|NN)(called|VBN)(Potter|NNP)(was|VBD)(away|RB)(in|IN)(the|DT)(street|NN)(.|.) : 1.2453301414420047e-16
+(The|DT)(boy|NN)(called|VBN)(Potter|NNP)(was|VBD)(away|RP)(in|IN)(the|DT)(street|NN)(.|.) : 5.714952137212528e-16
+
+POS tagging with maximum probability:
+(The|DT)(boy|NN)(called|VBN)(Potter|NNP)(was|VBD)(away|RP)(in|IN)(the|DT)(street|NN)(.|.) : 5.714952137212528e-16
+
+Probability values used:
+P(The|DT) : 0.118, P(DT|<s>) : 0.333
+P(boy|NN) : 0.048, P(NN|DT) : 0.324
+P(called|VBN) : 0.333, P(VBN|NN) : 0.048
+P(Potter|NNP) : 0.034, P(NNP|VBN) : 0.333
+P(was|VBD) : 0.231, P(VBD|NNP) : 0.207
+P(away|RP) : 0.333, P(RP|VBD) : 0.051
+P(in|IN) : 0.132, P(IN|RP) : 0.333
+P(the|DT) : 0.412, P(DT|IN) : 0.316
+P(street|NN) : 0.024, P(NN|DT) : 0.324
+P(.|.) : 1.0, P(.|NN) : 0.143
