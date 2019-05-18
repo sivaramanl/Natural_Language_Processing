@@ -56,7 +56,7 @@ Run the source code file using Python.
 <ol>
   <li>The tagged corpus in POS_corpus.txt will be utilized to tag the 'first' line in testset.txt</li>
   <li>The results will be displayed in the command prompt while detailed results will be written to lexical_prob.txt, transition_prob.txt and testset_output.txt</li>
-  <li>The full stop is treated as the end tag (</s>).</li>
+  <li>The full stop is treated as the end tag (represented as <\\/s> in the output).</li>
   <li>The program supports input corpus from Stanford POS tagger only.</li>
   <li>Only one line of text can be tagged as a test sentence. When multiple sentences are required to be tagged, kindly execute the source code multiple times.</li>
 </ol>
