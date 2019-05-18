@@ -17,7 +17,7 @@ testset_output.txt      -   Contains all possible tagging combinations for the g
                             based on the probility calculation.
                             
 1. Run the source code file using Python.
->> python hmm_probability_calculator.py
+> python hmm_probability_calculator.py
 2. The tagged corpus in POS_corpus.txt will be utilized to tag the 'first' line in testset.txt
 The results will be displayed in the command prompt while detailed results will be written to lexical_prob.txt, transition_prob.txt and testset_output.txt
 3. The full stop is treated as the end tag (</s>).
