@@ -16,6 +16,7 @@ Info:
   <tr>
     <td colspan="3"></td>
   </tr>
+  <tr></tr>
   <tr>
     <td rowspan="2">Input files:</td>
     <td>POS_corpus.txt</td>
@@ -29,6 +30,7 @@ Info:
   <tr>
     <td colspan="3"></td>
   </tr>
+  <tr></tr>
   <tr>
     <td rowspan="3">Output files:</td>
     <td>lexical_prob.txt</td>
