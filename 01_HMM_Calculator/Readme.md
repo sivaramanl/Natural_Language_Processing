@@ -45,16 +45,13 @@ Info:
 </table>
 <br>
 <b>Source code execution:</b>
+<br>
 Run the source code file using Python.
 <br>
-> python hmm_probability_calculator.py
-<br>
+>> python hmm_probability_calculator.py
+<br><br>
 <b>Notes:</b>
 <ol>
-  <li>Run the source code file using Python.
-    <br>
-
-  </li>
   <li>The tagged corpus in POS_corpus.txt will be utilized to tag the 'first' line in testset.txt</li>
   <li>The results will be displayed in the command prompt while detailed results will be written to lexical_prob.txt, transition_prob.txt and testset_output.txt</li>
   <li>The full stop is treated as the end tag (</s>).</li>
