@@ -1,5 +1,5 @@
-README
-------
+Question Answering System utilizing semantic parsing
+----------------------------------------------------
 
 Authors: 
 <ul>
@@ -11,6 +11,60 @@ Authors:
   </li>
 </ul>
 <hr>
+Info:
+<table>
+  <tr>
+    <td rowspan="10">Pre requisites:</td>
+    <td>Python packages</td>
+    <td colspan="2">nltk, gensim, sqlite3</td>
+  </tr>
+  <tr>
+    <td colspan="3"></td>
+  </tr>
+  <tr>
+    <td rowspan="3">Corpus</td>
+    <td>Name:</td>
+    <td>GoogleNews-vectors-negative300.bin</td>
+  </tr>
+  <tr>
+    <td>Source download link:</td>
+    <td>https://drive.google.com/file/d/0B7XkCwpI5KDYNlNUTTlSS21pQmM</td>
+  </tr>
+  <tr>
+    <td>Instructions:</td>
+    <td>Please download the same and extract it under "tools/word2vec" directory.</td>
+  </tr>
+  <tr>
+    <td colspan="3"></td>
+  </tr>
+  <tr>
+    <td rowspan="4">Parser</td>
+    <td>Name:</td>
+    <td>CoreNLP</td>
+  </tr>
+  <tr>
+    <td>Source download link:</td>
+    <td>https://stanfordnlp.github.io/CoreNLP</td>
+  </tr>
+  <tr>
+    <td>Reference:</td>
+    <td>https://github.com/nltk/nltk/wiki/Stanford-CoreNLP-API-in-NLTK</td>
+  </tr>
+  <tr>
+    <td>Instructions:</td>
+    <td>
+      <ul>
+        <li>The source code tries to connect to the CoreNLP server running at "http://localhost:9000".</li>
+        <li>Please ensure that the CoreNLP server is available at this host URL.</li>
+        <li>If the connection to CoreNLP fails, the execution will be terminated with an error message.</li>
+      </ul>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="4"></td>
+  </tr>
+</table>
+
 
 Readme:
 1. The source code is named "semantic_parsing_qa_system.py" and is developed in Python version Python 3.7.1 and hence please ensure the corresponding version is available to execute the source code.
