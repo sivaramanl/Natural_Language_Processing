@@ -122,5 +122,4 @@ Info:
     <td>The output, as described above, is streamed to the default output stream also.</td>
   </tr>
 </table>
-<hr>
 Note: Please refer to the "Semantic_parsing_QA_system_Report.pdf" file under 'Report' directory for information on the design of the system.
