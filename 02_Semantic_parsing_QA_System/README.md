@@ -14,7 +14,7 @@ Authors:
 Info:
 <table>
   <tr>
-    <td rowspan="10">Pre requisites:</td>
+    <td rowspan="12">Pre requisites:</td>
     <td>Python packages</td>
     <td colspan="2">nltk, gensim, sqlite3</td>
   </tr>
@@ -57,6 +57,18 @@ Info:
         <li>The source code tries to connect to the CoreNLP server running at "http://localhost:9000".</li>
         <li>Please ensure that the CoreNLP server is available at this host URL.</li>
         <li>If the connection to CoreNLP fails, the execution will be terminated with an error message.</li>
+      </ul>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="3"></td>
+  </tr>
+  <tr>
+    <td>Databases</td>
+    <td colspan="2">
+      <ul>
+        <li>Three databases are provided under "Databases/Sqlite.Db" directory each corresponding to one of the three categories of queries supported in the system: movies/music/geography.</li>
+        <li>Download the 'Sqlite.Db' directory to the root of the source code directory for the system to access them.</li>
       </ul>
     </td>
   </tr>
