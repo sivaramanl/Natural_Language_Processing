@@ -1,5 +1,6 @@
-<b>HMM Probability calculator</b>
-<br><br>
+HMM Probability calculator
+--------------------------
+<br>
 Info:
 <table>
   <tr>
