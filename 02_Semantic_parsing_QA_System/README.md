@@ -11,7 +11,6 @@ Authors:
   </li>
 </ul>
 <hr>
--------------------
 
 Readme:
 1. The source code is named "semantic_parsing_qa_system.py" and is developed in Python version Python 3.7.1 and hence please ensure the corresponding version is available to execute the source code.
