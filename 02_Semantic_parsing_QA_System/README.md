@@ -11,7 +11,6 @@ Authors:
   </li>
 </ul>
 <hr>
--------------------
 
 Readme:
 1. The source code is named "semantic_parsing_qa_system.py" and is developed in Python version Python 3.7.1 and hence please ensure the corresponding version is available to execute the source code.
@@ -26,6 +25,8 @@ The same can be downloaded from here: https://drive.google.com/file/d/0B7XkCwpI5
 The source code tries to connect to the CoreNLP server running at "http://localhost:9000". 
 Please ensure that the CoreNLP server is available at this host URL.
 If the connection to CoreNLP fails, the execution will be terminated with an error message.
+CoreNLP download link: https://stanfordnlp.github.io/CoreNLP/
+CoreNLP execution details can be found here: https://github.com/nltk/nltk/wiki/Stanford-CoreNLP-API-in-NLTK
 5. The source code connects to SQLite databases to execute the queries formed from natural language queries.
 Please download and extract the database files under "Sqlite.Db" directory.
 If a connection cannot be established with the databases, the execution will be terminated with an error message.
