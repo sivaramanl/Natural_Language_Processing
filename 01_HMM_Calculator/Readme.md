@@ -1,5 +1,3 @@
-README
-------
 <b>HMM Probability calculator</b>
 <br><br>
 Info:
