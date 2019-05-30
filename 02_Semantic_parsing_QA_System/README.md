@@ -63,27 +63,40 @@ Info:
   <tr>
     <td colspan="4"></td>
   </tr>
+  <tr>
+    <td rowspan="7">Source code info:</td>
+    <td>Python version:</td>
+    <td colspan="2">3.7.1</td>
+  </tr>
+  <tr>
+    <td colspan="3"></td>
+  </tr>
+  <tr>
+    <td rowspan="5">Source code files:</td>
+    <td><a href="https://github.com/sivaramanl/Natural_Language_Processing/blob/master/02_Semantic_parsing_QA_System/Source_code/sqlConnector.py">sqlConnector.py</a></td>
+    <td>Contains the class that performs database operations.</td>
+  </tr>
+  <tr>
+    <td><a href="https://github.com/sivaramanl/Natural_Language_Processing/blob/master/02_Semantic_parsing_QA_System/Source_code/queryForm.py">queryForm.py</a></td>
+    <td>Contains the class to hold the query object being constructed for the translation of natural language queries into SQL queries.</td>
+  </tr>
+  <tr>
+    <td><a href="https://github.com/sivaramanl/Natural_Language_Processing/blob/master/02_Semantic_parsing_QA_System/Source_code/transition.py">transition.py</a></td>
+    <td>Contains the class to perform translation of parse tree tranisitions into SQL query components.</td>
+  </tr>
+  <tr>
+    <td><a href="https://github.com/sivaramanl/Natural_Language_Processing/blob/master/02_Semantic_parsing_QA_System/Source_code/customParseHandler.py">customParseHandler.py</a></td>
+    <td>Contains the class to categorize a natural language query into music/movie/geography and initiate the answering mechanism.</td>
+  </tr>
+  <tr>
+    <td><a href="https://github.com/sivaramanl/Natural_Language_Processing/blob/master/02_Semantic_parsing_QA_System/Source_code/qaSystem.py">qaSystem.py</a></td>
+    <td>Contains the wrapper to perform all the operations on the input file and generate the corresponding output file.</td>
+  </tr>
+  <tr>
+    <td colspan="4"></td>
+  </tr>
 </table>
 
-
-Readme:
-1. The source code is named "semantic_parsing_qa_system.py" and is developed in Python version Python 3.7.1 and hence please ensure the corresponding version is available to execute the source code.
-2. The following package dependencies are to be fulfilled in order to execute the code.
-    a) Package 'nltk'
-    b) Package 'gensim'
-    c) Package 'sqlite3'
-3. Additionally, the word2vec model utilized in the source code is built using the "GoogleNews-vectors-negative300.bin" pre-trained vectors. 
-Please download the same and extract it under "tools/word2vec" directory. 
-The same can be downloaded from here: https://drive.google.com/file/d/0B7XkCwpI5KDYNlNUTTlSS21pQmM/edit
-4. The NLP parser used in the source code is CoreNLP. 
-The source code tries to connect to the CoreNLP server running at "http://localhost:9000". 
-Please ensure that the CoreNLP server is available at this host URL.
-If the connection to CoreNLP fails, the execution will be terminated with an error message.
-CoreNLP download link: https://stanfordnlp.github.io/CoreNLP/
-CoreNLP execution details can be found here: https://github.com/nltk/nltk/wiki/Stanford-CoreNLP-API-in-NLTK
-5. The source code connects to SQLite databases to execute the queries formed from natural language queries.
-Please download and extract the database files under "Sqlite.Db" directory.
-If a connection cannot be established with the databases, the execution will be terminated with an error message.
 6. The execution expects an input file name as a command line parameter. If not provided, the input file name will be treated as "input.txt" by default.
 7. On execution, the results will be available in two streams.
     a) Command line output.
