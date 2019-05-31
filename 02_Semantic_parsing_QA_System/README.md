@@ -105,7 +105,7 @@ Info:
     <td>Contains the wrapper to perform all the operations on the input file and generate the corresponding output file.</td>
   </tr>
   <tr>
-    <td>Note: Source code file to be executed.</td>
+    <td>Note: This is the main source code file to be executed.</td>
   </tr>
   <tr>
     <td colspan="4"></td>
@@ -135,4 +135,8 @@ Info:
   </tr>
 </table>
 <br>
-Note: Please refer to the "Semantic_parsing_QA_system_Report.pdf" file under 'Report' directory for information on the design of the system.
+Notes: 
+<ul>
+  <li>Please refer to the "Semantic_parsing_QA_system_Report.pdf" file under 'Report' directory for information on the design of the system.</li>
+  <li>The sample input covers all the different variations of queries handled by the current version of the system.</li>
+</ul>
